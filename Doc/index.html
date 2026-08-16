@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Installation Gateway ESP32 MQTT</title>
+  <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 50px; }
+    .card { background: #f4f4f4; padding: 20px; border-radius: 10px; display: inline-block; }
+  </style>
+</head>
+<body>
+
+  <h1>Gateway ESP32 MQTT - CSNET Home</h1>
+
+  <div class="card">
+    <p>Branchez l'ESP32 en USB et cliquez sur Installer :</p>
+    
+    <!-- Bouton ESP Web Tools -->
+    <esp-web-install-button manifest="./manifest.json">
+      <button slot="activate">Installer le Firmware</button>
+      <span slot="unsupported">Votre navigateur ne prend pas en charge WebSerial. Utilisez Chrome ou Edge sur PC.</span>
+      <span slot="not-allowed">L'installation nécessite une connexion HTTPS sécurisée.</span>
+    </esp-web-install-button>
+  </div>
+
+</body>
+</html>

@@ -26,6 +26,7 @@ MQTT
 - 4e Topic : csnet/csnet/raw/installationdevices
 
 Toutes les infos sont brutes sauf celles rentrées depuis l'appli. Exemple : si un circuit de chauffage est nommé radiateur, plancher ou autre
+<img width="424" height="180" alt="image" src="https://github.com/user-attachments/assets/656fcf0f-c934-4a89-a5a6-1d840dd17d42" />
 
 
 

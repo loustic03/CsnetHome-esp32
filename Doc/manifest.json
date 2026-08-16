@@ -1,1 +1,15 @@
-
+{
+  "name": "Gateway esp32 MQTT pour CSNET Home ",
+  "version": "1.00",  
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "CSNet_MQTT_Gateway_esp32.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}

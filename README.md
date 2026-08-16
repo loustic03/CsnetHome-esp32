@@ -9,6 +9,14 @@ Utilisant Jeedom sur lequel il n'y a pas de plugin, j'ai créer une passerelle a
 # CsnetHome-esp32 (ne fonctionne que pour les PAC utilisant Csnet Home)
 Passerelle esp32 pour se connecter sur Csnet Home et renvoyer les infos sur MQTT   
 
+## Comment installer le code sur l'ESP32   
+- Lancer l'installateur depuis ce lien: https://loustic03.github.io/CsnetHome-esp32/
+  
+  <img width="672" height="281" alt="image" src="https://github.com/user-attachments/assets/304f43d2-4db9-48ac-a17b-2fa33899f392" />
+
+  ensuite connecter l'ESP32 en USB et cliquer sur Installer le Firmware, sélectionner le port indiquer et cliquer sur connexion
+  pour certain ESP32 il faut appuyer sur le bouton Boot de l'ESP 
+
 
 ## Accès à l'esp après téléchargement  
 - Depuis le navigateur rentrer l'adresse: http://csnet.local ou l'IP qui est remonté depuis Logs & Console depuis la page de téléchargement

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Installation Gateway ESP32 MQTT pour CSNET Home</title>
+  
+  <!-- Charge la bibliothèque ESP Web Tools -->
+  <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+  
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      max-width: 650px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #333;
+      text-align: center;
+    }
+    .card {
+      background: #f9f9f9;
+      border: 1px solid #e2e2e2;
+      border-radius: 8px;
+      padding: 24px;
+      margin-top: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    esp-web-install-button {
+      display: inline-block;
+      margin-top: 15px;
+    }
+    .instructions {
+      text-align: left;
+      margin-top: 20px;
+      font-size: 0.95em;
+    }
+    code {
+      background: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Gateway ESP32 MQTT - CSNET Home</h1>
+  <p>Installation du firmware directement depuis le navigateur web.</p>
+
+  <div class="card">
+    <h2>Flasher votre ESP32</h2>
+    <p>Branchez votre ESP32 en USB sur cet ordinateur, puis cliquez sur le bouton ci-dessous :</p>
+    
+    <!-- Bouton d'installation qui fait appel au manifest.json -->
+    <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
+  </div>
+
+  <div class="instructions">
+    <h3>Prérequis et consignes :</h3>
+    <ul>
+      <li>Utilisez un navigateur compatible WebSerial comme <strong>Google Chrome</strong>, <strong>Microsoft Edge</strong> ou <strong>Opera</strong>.</li>
+      <li>Assurez-vous d'utiliser un câble USB de données (pas uniquement de charge).</li>
+      <li>Si votre carte n'apparaît pas, vous devrez peut-être installer les pilotes USB du composant série de votre ESP32 (ex: <code>CP2102</code> ou <code>CH340</code>).</li>
+    </ul>
+  </div>
+
+</body>
+</html>

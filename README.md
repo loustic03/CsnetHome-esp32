@@ -1,3 +1,5 @@
+### Passerelle pour connecter une PAC HITACHI depuis Csnet Home
+
 ## Il existe un projet pour CSNET Home pour utilisation sur Home Assistant   
 
 https://github.com/mmornati/home-assistant-csnet-home.git  

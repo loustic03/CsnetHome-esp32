@@ -2,7 +2,7 @@
 
 https://github.com/mmornati/home-assistant-csnet-home.git  
 
-- Je me suis appuyé sur ce projet pour créer la passerelle sur esp32 :
+- Je me suis appuyé sur ce projet pour créer la passerelle sur esp32 
   
 Utilisant Jeedom sur lequel il n'y a pas de plugin, j'ai créer une passerelle avec un esp32 et qui permet d'envoyer les infos de ma PAC sur MQTT mais ne permet pas de la piloter
 

@@ -1,5 +1,10 @@
+# Il existe un projet pour CSNET Home pour utilisation sur Home Assistant
+https://github.com/mmornati/home-assistant-csnet-home.git  
+
+mais utilisant Jeedom sur lequel il n'y a pas de plugin 
+
 # CsnetHome-esp32
-Passerelle esp32 pour se connecter sur Csnet Home et envoyer les infos sur MQTT  
+Passerelle esp32 pour se connecter sur Csnet Home et envoyer les infos sur MQTT 
 
 ## Accès à l'esp après téléchargement  
 - Depuis le navigateur rentrer l'adresse: http://csnet.local ou l'IP qui est remonté depuis Logs 1 Console depuis la page de téléchargement

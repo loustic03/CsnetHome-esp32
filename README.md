@@ -1,4 +1,4 @@
-### Passerelle pour connecter une PAC HITACHI depuis Csnet Home
+# Passerelle pour connecter une PAC HITACHI depuis Csnet Home
 
 ## Il existe un projet pour CSNET Home pour utilisation sur Home Assistant   
 
@@ -8,7 +8,7 @@ https://github.com/mmornati/home-assistant-csnet-home.git
   
 Utilisant Jeedom sur lequel il n'y a pas de plugin, j'ai créer une passerelle avec un esp32 et qui permet d'envoyer les infos de ma PAC sur MQTT mais ne permet pas de la piloter
 
-# CsnetHome-esp32 (ne fonctionne que pour les PAC utilisant Csnet Home)
+## CsnetHome-esp32 (ne fonctionne que pour les PAC utilisant Csnet Home)
 Passerelle esp32 pour se connecter sur Csnet Home et renvoyer les infos sur MQTT   
 
 ## Comment installer le code sur l'ESP32   

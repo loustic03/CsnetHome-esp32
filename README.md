@@ -7,7 +7,7 @@ Utilisant Jeedom sur lequel il n'y a pas de plugin, j'ai créer une passerelle a
 Passerelle esp32 pour se connecter sur Csnet Home et envoyer les infos sur MQTT 
 
 ## Accès à l'esp après téléchargement  
-- Depuis le navigateur rentrer l'adresse: http://csnet.local ou l'IP qui est remonté depuis Logs 1 Console depuis la page de téléchargement
+- Depuis le navigateur rentrer l'adresse: http://csnet.local ou l'IP qui est remonté depuis Logs && Console depuis la page de téléchargement
 
 ## Page Web  
 

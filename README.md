@@ -6,12 +6,21 @@ Passerelle esp32 pour se connecter sur Csnet Home et envoyer les infos sur MQTT
 
 ## Page Web  
 
-Connexion Csnet
+Csnet
 - Il faut rentrer identifiant CSNET Home → Non d'utilisateur et mot de passe
 
 MQTT  
 - rentrer l'IP du brocker et son port s'il n'est pas celui par défaut
+- Le préfix MQTT et modifiable mais pas conseiller
 
+- Le brocker MQTT va remonter plusieurs type en topic car l'ensemble des infos étant trop importante
+  
+- 1er Topic : csnet/csnet/availability  remonte juste si la connexion Csnet est online ou non
+- 2e Topic : csnet/csnet/state
+- 3e Topic : csnet/csnet/raw/elements
+- 4e Topic : csnet/csnet/raw/installationdevices
+
+Toutes les infos sont brutes sauf celles rentrées depuis l'appli. Exemple : si un circuit de chauffage est nommé radiateur, plancher ou autre
 
 
 

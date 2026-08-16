@@ -28,7 +28,15 @@ MQTT
 - 4e Topic : csnet/csnet/raw/installationdevices
 
 Toutes les infos sont brutes sauf celles rentrées depuis l'appli. Exemple : si un circuit de chauffage est nommé radiateur, plancher ou autre
-<img width="424" height="180" alt="image" src="https://github.com/user-attachments/assets/656fcf0f-c934-4a89-a5a6-1d840dd17d42" />
+<img width="424" height="180" alt="image" src="https://github.com/user-attachments/assets/656fcf0f-c934-4a89-a5a6-1d840dd17d42" />  
+
+## Projet qui peut-être fait avec un JC3248W535 C : 
+
+<img width="249" height="177" alt="image" src="https://github.com/user-attachments/assets/d8e6dec9-0104-4956-9475-12d717bfe590" />  
+
+<img width="205" height="136" alt="image" src="https://github.com/user-attachments/assets/b4024355-6510-4093-881f-0bf70588f13f" />
+
+
 
 
 

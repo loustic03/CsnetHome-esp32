@@ -34,8 +34,8 @@ MQTT
 
 - Le brocker MQTT va remonter plusieurs type en topic car l'ensemble des infos étant trop importante
   
-- 1er Topic : csnet/csnet/availability  remonte juste si la connexion Csnet est online ou non
-- 2e Topic : csnet/csnet/state
+- 1er Topic : csnet/csnet/availability  → remonte juste si la connexion Csnet est online ou non
+- 2e Topic : csnet/csnet/state  → remonte les infos pricipales
 - 3e Topic : csnet/csnet/raw/elements
 - 4e Topic : csnet/csnet/raw/installationdevices
 

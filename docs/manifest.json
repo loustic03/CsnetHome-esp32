@@ -6,7 +6,7 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "https://github.com/loustic03/CsnetHome-esp32/releases/download/V1.00/CSNet_MQTT_Gateway_esp32.bin",
+          "path": "updates/CSNet_MQTT_Gateway_esp32.bin",
           "offset": 0
         }
       ]
